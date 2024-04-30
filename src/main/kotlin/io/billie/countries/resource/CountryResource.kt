@@ -52,6 +52,7 @@ class CountryResource(val service: CountryService) {
                 NOT_FOUND,
                 "No cities found for $countryCode"
             )
+            // just a test commit
         }
         return cities
     }
